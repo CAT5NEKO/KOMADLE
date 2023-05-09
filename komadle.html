@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>こまDle</title>
+   <link rel="stylesheet" type="text/css" href="komadle.css">
+ </head>
+<body>
+ <div class="container">
+  <h1>Wordleこまくさ</h1>
+   <p>以下の文字列を当ててください：「こ、ま、く、さ」のいずれかを使った4文字のランダムな配列です。</p>
+    <p>🟢あってる　🟡場所が違う　🔴ちがう</p>
+     <p>ボヤけてる部分クリックしたらカンニングできます。</p>
+ </div>
+ <div class="word-container">
+  <p id="word"></p>
+ </div>
+ <div class="guess-container">
+  <input type="text" id="guess-input" placeholder="4文字を入力してください">
+   <button id="guess-button">当てる</button>
+ </div>
+ <div class="result-container">
+  <p id="result"></p>
+ </div>
+</div>
+
+<script src="komadle.js"></script>
+ </body>
+</html>
+<!-- 
+      _   _   U _____ u  _  __    U  ___ u  _   _   U _____ u  _____   
+ | \ |"|  \| ___"|/ |"|/ /     \/"_ \/ | \ |"|  \| ___"|/ |_ " _|  
+<|  \| |>  |  _|"   | ' /      | | | |<|  \| |>  |  _|"     | |    
+U| |\  |u  | |___ U/| . \\u.-,_| |_| |U| |\  |u  | |___    /| |\   
+ |_| \_|   |_____|  |_|\_\  \_)-\___/  |_| \_|   |_____|  u |_|U   
+ ||   \\,-.<<   >>,-,>> \\,-.    \\    ||   \\,-.<<   >>  _// \\_  
+ (_")  (_/(__) (__)\.)   (_/    (__)   (_")  (_/(__) (__)(__) (__) 
+ ねこねっとシリーズはCAT5の開発する謎コンテンツのシリーズです。1995-2023 CAT5. All Rights Reserved.
+-->
